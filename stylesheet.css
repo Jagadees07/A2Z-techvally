@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* jumbotron */
+
+/* .jumbotron {
+    display: flex;
+} */
+
+.j-left {
+    position: relative;
+    background-color: #7DCE94;
+    /* clip-path: polygon(0 0, 50% 0, 50% 100%, 0% 100%); */
+}
+
+.j-left-img {
+    padding: 10%;
+}
+
+.j-right {
+    position: relative;
+    background-color: #3D3D3F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* clip-path: polygon(100% 0, 50% 0, 50% 100%, 100% 100%); */
+}
+
+.j-right h1 {
+    /* text-align: center; */
+    font-size: xx-large;
+    color: white;
+    /* margin-top: 20%; */
+}
+
+.j-right button {
+    background-color: #7DCE94;
+    border: none;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 40px;
+}
+.btn-yt:hover {
+    background-color: #3D3D3F;
+    color: #7DCE94;
+    border: 2px solid #7DCE94;
+}
+.navbar-dark {
+    color: gray;
+}
+.row {
+    padding-top: 50px;
+}
+.visit {
+    margin-top: 100px;
+    background-color: #003A44;
+    color: #66A4AC;
+}
+.head {
+    margin-top: 12%;
+}
+.btn {
+    margin-top: 10px;
+    background-color: #3D3D3F;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    color: white;
+    border-radius: 30px;
+}
+.btn:hover {
+    background-color: #7DCE94;
+}
+
+
+.supporters {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #7DCE94;
+}
+.our-support {
+    padding-top: 40px;
+    text-align: center;
+}
+.row {
+    text-align: center;
+}
+.col-sm-4 h3 {
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+
+
+/*-------- footer --------*/
+
+.footer-1 > .row{
+
+    background-image: url('https://res.cloudinary.com/think-makers-asylum/image/upload/v1629352613/Wave-vector_svkc6i.png');
+    background-size: cover;
+}
+
+/* .footer-1 .bg-img {
+} */
+
+.footer-1 .content {
+    height: 100%;
+}
+
+.f-content-t {
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+}
+
+.f-content-c {
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+}
+
+.f-content-m {
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+}
+
+.fa {
+   margin-bottom: 20px; 
+}
+.fa::before {
+   font-size: 35px;
+}
+.fa-youtube::before {
+    color: #FF0000;
+}
+.fa-facebook::before {
+    color: #4267B2;
+}
+.insta-logo {
+    width: 35px;
+    margin-bottom: 20px;
+}
+
+/* Our Videos */
+.our-video {
+    margin: 50px 0 50px 0;
+}
+.our-video .container h1 {
+    font-weight: bolder;
+    text-align: center;
+}
+.ov-p {
+    padding-bottom: 10px;
+}
+
+.stick {
+    text-decoration: underline;
+    color: black;
+}
+.stick:hover {
+    color: blue;
+}
